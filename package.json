@@ -1,0 +1,33 @@
+{
+  "name": "notion-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriusAI/notion-util.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PriusAI/notion-util/issues"
+  },
+  "homepage": "https://github.com/PriusAI/notion-util#readme",
+  "dependencies": {
+    "@mozilla/readability": "github:PriusAI/readability",
+    "@tryfabric/martian": "^1.2.4",
+    "hast-util-from-html": "^2.0.1",
+    "hast-util-to-mdast": "^10.1.0",
+    "jsdom": "^24.0.0",
+    "mdast-util-gfm": "^3.0.0",
+    "mdast-util-to-markdown": "^2.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  }
+}
